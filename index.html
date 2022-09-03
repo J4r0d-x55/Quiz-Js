@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viweport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>QUIZZ JS</h1>
+    <div class="container-global">
+
+        <form class="form-quizz">
+    
+              <div class="question-block">
+                <h4>Que fait i++ ?</h4>
+                
+                <div>
+                    <input type="radio" id="notexist" name="q1" value="a"checked>
+                    <label for="notexist">N'existe pas en Javascript</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="binaire" name="q1" value="b">
+                    <label for="binaire">Décale la valeur binaire de 1</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="incremente" name="q1" value="c">
+                    <label for="incremente">Incrémente i de 1</label>
+                </div>
+            </div>
+    
+            <div class="question-block">
+                <h4>Comment mettre une chaine ch1 en minuscules ?</h4>
+                <div>
+                    <input type="radio" id="lower" name="q2" value="a" checked>
+                    <label for="lower">ch1.toLowerCase()</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="min" name="q2" value="b">
+                    <label for="min">min(ch1)</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="loch1" name="q2" value="c">
+                    <label for="loch1">Lower(ch1)</label>
+                </div>
+            </div>
+    
+            <div class="question-block">
+                <h4>Comment accéder au premier élément d'un tableau T1 ?</h4>
+                <div>
+                    <input type="radio" id="tab1" name="q3" value="a" checked>
+                    <label for="tab1">T1[1]</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="tab2" name="q3" value="b">
+                    <label for="tab2">T1[0]</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="tab3" name="q3" value="c">
+                    <label for="tab3">T1(0)</label>
+                </div>
+            </div>
+    
+    
+            <div class="question-block">
+                <h4>Comment renvoyer un nombre aléatoire compris entre 0 et 1 ?</h4>
+    
+                <div>
+                    <input type="radio" id="random" name="q4" value="a" checked>
+                    <label for="random">Math.random()</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="rnd" name="q4" value="b">
+                    <label for="rnd">rnd()</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="randomm" name="q4" value="c">
+                    <label for="randomm">random()</label>
+                </div>
+            </div>
+    
+    
+            <div class="question-block">
+                <h4>Math.floor(-3.4) affiche :</h4>
+                <div>
+                    <input type="radio" id="m1" name="q5" value="a"
+                        checked>
+                    <label for="m1">-3</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="m2" name="q5" value="b">
+                    <label for="m2">3.4</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="m3" name="q5" value="c">
+                    <label for="m3">-4</label>
+                </div>
+            </div>
+    
+            <button type="submit">Validez vos choix !</button>
+        </form>
+    
+        <div class="resultats">
+          <h2>Cliquez sur valider pour voir les résultats.</h2>
+          <p class="aide"></p>
+          <p class="note"></p>
+        </div>
+      </div>
+    
+    
+    
+        
+    </body>
+    </html>
